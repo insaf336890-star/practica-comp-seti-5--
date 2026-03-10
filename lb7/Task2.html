@@ -1,37 +1,59 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
-    <meta charset="utf-8">
-    <title>Задание 2</title>
+<meta charset="UTF-8">
+<style>
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  th, td {
+    border: 1px solid black;
+    padding: 10px;
+  }
+  /* Шапка таблицы */
+  .header-row {
+    background-color: #FF0000;
+    color: white;
+  }
+  /* Левый столбец с названиями */
+  .side-bar {
+    background-color: #009999;
+    color: white;
+    width: 30%;
+  }
+</style>
 </head>
 <body>
 
-    <center>Добыча драгоценных камней</center>
-    
-    <table border="1" align="center" width="400">
-        <tr bgcolor="#FF0000" align="center" style="color: white;">
-            <td></td>
-            <td><b>2014</b></td>
-            <td><b>2015</b></td>
-            <td><b>2016</b></td>
-        </tr>
-        <tr>
-            <td bgcolor="#009999" style="color: white;">Сапфиры</td>
-            <td rowspan="2" align="center">1483</td>
-            <td align="center">4532</td>
-            <td align="center">6743</td>
-        </tr>
-        <tr>
-            <td bgcolor="#009999" style="color: white;">Рубины</td>
-            <td align="center">3835</td>
-            <td align="center">7482</td>
-        </tr>
-        <tr>
-            <td bgcolor="#009999" style="color: white;">Алмазы</td>
-            <td align="center">683</td>
-            <td colspan="2" align="center">238</td>
-        </tr>
-    </table>
+<h3 style="text-align: center;">Добыча драгоценных камней (упрощенная)</h3>
+
+<table>
+  <tr class="header-row">
+    <td></td>
+    <th>2014</th>
+    <th>2015</th>
+    <th>2016</th>
+  </tr>
+  <tr>
+    <th class="side-bar">Сапфиры</th>
+    <td rowspan="2">10</td> 
+    <td>20</td>
+    <td>30</td>
+  </tr>
+  <tr>
+    <th class="side-bar">Рубины</th>
+    <td>40</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <th class="side-bar">Алмазы</th>
+    <td>60</td>
+    <td colspan="2">100</td> 
+  </tr>
+</table>
 
 </body>
 </html>
