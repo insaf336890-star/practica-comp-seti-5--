@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Задание 1</title>
+</head>
+<body>
+    <h2> Мои любимые фильмы</h2>
+    <ol id="movieList"></ol>
+
+    <script>
+      
+        let movies = ["Трансформеры ", "Титаник", "Оно", "Джокер", "Бэтмен"];
+        let list = document.querySelector("#movieList");
+
+   
+        if (movies.length === 0) {
+            list.innerHTML = "<li>Список пуст</li>";
+        } else {
+            
+            for (let i = 0; i < movies.length; i++) {
+                list.innerHTML = list.innerHTML + "<li>" + movies[i] + "</li>";
+            }
+        }
+    </script>
+</body>
+</html>

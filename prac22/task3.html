@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Задание 3</title>
+</head>
+<body>
+    <h2> Анализ массива чисел</h2>
+    <button id="calcBtn">Подсчитать</button>
+    
+    <p id="resMore"></p>
+    <p id="resLess"></p>
+    <p id="resEqual"></p>
+    <p id="resSum"></p>
+
+    <script>
+        let numbers = [5, 12, 8, 130, 44, 3, 7, 21];
+        
+        let btn = document.querySelector("#calcBtn");
+        let resMore = document.querySelector("#resMore");
+        let resLess = document.querySelector("#resLess");
+        let resEqual = document.querySelector("#resEqual");
+        let resSum = document.querySelector("#resSum");
+
+        btn.onclick = function() {
+            let countMore = 0;
+            let countLess = 0;
+            let countEqual = 0;
+            let totalSum = 0;
+
+
+            for (let i = 0; i < numbers.length; i++) {
+
+                totalSum = totalSum + numbers[i];
+
+
+                if (numbers[i] > 10) {
+                    countMore++;
+                } else if (numbers[i] < 10) {
+                    countLess++;
+                } else {
+                    countEqual++;
+                }
+            }
+
+           
+            resMore.textContent = "Чисел больше 10: " + countMore;
+            resLess.textContent = "Чисел меньше 10: " + countLess;
+            resEqual.textContent = "Чисел равных 10: " + countEqual;
+            resSum.textContent = "Сумма всех чисел: " + totalSum;
+        };
+    </script>
+</body>
+</html>
