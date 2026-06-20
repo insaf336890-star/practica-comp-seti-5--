@@ -1,0 +1,14 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+.p-box {
+    margin-bottom: 10px;
+    text-align: center;
+    border-width: 5px;
+    font-size: 14px;
+}
+.style-1 { border-style: double solid dashed double; }
+.style-2 { border-style: solid dashed double solid; }
+.style-3 { border-style: dotted dotted solid dotted; }
+.style-4 { border-style: dotted; }

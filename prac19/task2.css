@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+.container {
+    max-width: 600px;
+    border: 1px solid #ccc;
+}
+.container h2 {
+    background-color: #5f9ea0;
+    color: white;
+    margin: 0;
+    padding: 15px;
+}
+.container p {
+    background-color: #d3d3d3;
+    margin: 0;
+    padding: 15px;
+    font-size: 14px;
+    line-height: 1.4;
+}

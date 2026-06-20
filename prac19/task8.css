@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+.border-box {
+    margin-bottom: 15px;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+}
+.outset {
+    border: 20px outset blue;
+}
+.inset {
+    border-style: inset;
+    border-width: 20px;
+    border-color: red blue;
+}
+.groove {
+    border-style: groove;
+    border-width: 20px;
+    border-color: green red blue;
+}
+.ridge {
+    border-style: ridge;
+    border-width: 20px;
+    border-color: magenta red blue green;
+}
+.note {
+    font-size: 12px;
+}

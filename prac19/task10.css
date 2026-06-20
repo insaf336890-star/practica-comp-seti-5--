@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+.radius {
+    background-color: #00ced1;
+    border: 1px solid #000000;
+    padding: 15px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.r-1 { border-radius: 50px 0 0 50px; }
+.r-2 { border-radius: 40px 10px; }
+.r-3 { border-radius: 13em / 3em; }
+.r-4 { border-radius: 13em 0.5em / 1em 0.5em; }
+.r-5 { border-radius: 8px; }

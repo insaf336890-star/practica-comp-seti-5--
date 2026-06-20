@@ -1,0 +1,13 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+.box {
+    border: 1px solid gray;
+    background-color: #f0f0f0;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+.top-none { padding-top: 0; }
+.top-cm { padding-top: 2cm; }
+.top-percent { padding-top: 50%; }

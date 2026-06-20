@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.block {
+    background-color: #228b22;
+    color: white;
+    padding: 20px;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+/* Настройки прозрачности блоков */
+.op-30 { 
+    opacity: 0.3; 
+}
+
+.op-60 { 
+    opacity: 0.6; 
+}
+
+.op-100 { 
+    opacity: 1.0; 
+}
